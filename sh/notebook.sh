@@ -1,1 +1,1 @@
-env/bin/jupyter notebook --notebook-dir ./ipynb
+jupyter notebook --notebook-dir ./ipynb
