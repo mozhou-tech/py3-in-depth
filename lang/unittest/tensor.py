@@ -7,7 +7,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(True, False)
 
     def test_version(self):
-        print(tf.version())
+        pass
 
 
 if __name__ == '__main__':
