@@ -1,7 +1,5 @@
 import plaidml.keras
-import os
 plaidml.keras.install_backend()
-os.environ['KERAS_BACKEND'] = 'plaidml.keras.backend'
 import keras
 mnist = keras.datasets.mnist
 import time
